@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[11],{226:function(t){t.exports={data:{post:{title:"House of tards 😏",cover:"/images/house-of-tards.jpg",date:"8. May 2019",tags:[{id:"democrats",title:"democrats",path:"/tag/democrats"},{id:"unhinged",title:"unhinged",path:"/tag/unhinged"}]}}}}}]);

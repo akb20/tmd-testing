@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[12],{227:function(a){a.exports={data:{post:{title:"The jihad squad 👾",cover:"/images/jihad-squad.jpg",date:"6. May 2019",tags:[{id:"democrats",title:"democrats",path:"/tag/democrats"},{id:"unhinged",title:"unhinged",path:"/tag/unhinged"}]}}}}}]);

@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[13],{228:function(t){t.exports={data:{post:{title:"I'll have the Kung Pao Chicken 🌭🧃",cover:"/images/kungpao.jpg",date:"11. June 2019",tags:[{id:"trump",title:"trump",path:"/tag/trump"},{id:"obama",title:"obama",path:"/tag/obama"},{id:"spygate",title:"spygate",path:"/tag/spygate"}]}}}}}]);

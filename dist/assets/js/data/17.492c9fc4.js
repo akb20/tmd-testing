@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[17],{232:function(t){t.exports={data:{post:{title:"Only in America 🦅",cover:"/images/only-in-america.jpg",date:"8. May 2019",tags:[{id:"trump",title:"trump",path:"/tag/trump"},{id:"truth",title:"truth",path:"/tag/truth"}]}}}}}]);
