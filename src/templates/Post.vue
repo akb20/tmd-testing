@@ -17,16 +17,6 @@
 
             <div class="hr"></div>
 
-            <social-sharing url="https://vuejs.org/" title="The Progressive JavaScript Framework" description="Intuitive, Fast and Composable MVVM for building interactive interfaces." quote="Vue is a progressive framework for building user interfaces." hashtags="vuejs,javascript,framework" twitter-user="vuejs" inline-template>
-              <div>
-                <network network="facebook">📘 Facebook
-                </network>
-                <network network="twitter">🐦 Twitter
-                </network>
-
-              </div>
-            </social-sharing>
-
             <p class="tags"> 📂
               <Tags :tags="$page.post.tags" />
             </p>
