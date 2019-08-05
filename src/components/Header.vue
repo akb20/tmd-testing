@@ -48,7 +48,7 @@ export default {};
     justify-content: space-between;
     flex-basis: 33.333%;
 
-    .nav-link {
+    a {
       text-transform: uppercase;
       color: $black;
       font-weight: 700;
