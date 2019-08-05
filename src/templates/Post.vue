@@ -61,7 +61,8 @@ export default {
         {
           property: "og:url",
           content: `${this.getBaseUrl}${this.$page.post.path}`
-        }
+        },
+        { property: "og:image", content: this.getCoverImage }
       ]
     };
   },

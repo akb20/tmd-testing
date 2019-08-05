@@ -2,20 +2,19 @@
   <header class="site-header">
 
     <div class="nav-left">
-      <g-link to="/">
-        <span class="nav-link" href="/tag/action">All</span>
-      </g-link>
-      <span class="nav-link" href="/tag/trump">Trump/maga</span>
-      <span class="nav-link" href="/tag/sci-fi">Democrats</span>
+      <g-link to="/">All</g-link>
+      <g-link to="/tag/trump">Trump/Maga</g-link>
+      <g-link to="/tag/democrats">Democrats</g-link>
     </div>
 
     <g-link to="/">
       <img class="logo" src="../assets/images/logo.png" alt="M">
     </g-link>
+
     <div class="nav-right">
-      <span class="nav-link" href="/tag/crime">Unhinged</span>
-      <span class="nav-link" href="/tag/80s">Truth</span>
-      <span class="nav-link" href="/tag/comedy">Tweets</span>
+      <g-link to="/tag/unhinged">Unhinged</g-link>
+      <g-link to="/tag/truth">Truth</g-link>
+      <g-link to="/tag/tweets">Tweets</g-link>
     </div>
 
   </header>
