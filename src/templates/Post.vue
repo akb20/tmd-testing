@@ -70,11 +70,11 @@ export default {
 
         { property: "og:type", content: "article" },
         { property: "og:title", content: this.$page.post.title },
-        { property: "og:description", content: this.$page.post.title },
-        {
-          property: "og:url",
-          content: `${this.getBaseUrl}${this.$page.post.path}`
-        }
+        { property: "og:description", content: this.$page.post.title }
+        // {
+        //   property: "og:url",
+        //   content: `${this.getBaseUrl}${this.$page.post.path}`
+        // }
       ]
     };
   },
@@ -83,11 +83,11 @@ export default {
       let coverImage = "";
       const cover = this.$page.post.cover;
       return coverImage;
-    },
-    getBaseUrl() {
-      console.log(process.env.GRIDSOME_BASE_URL);
-      return process.env.GRIDSOME_BASE_URL;
     }
+    // getBaseUrl() {
+    //   console.log(process.env.GRIDSOME_BASE_URL);
+    //   return process.env.GRIDSOME_BASE_URL;
+    // }
   }
 };
 </script>
