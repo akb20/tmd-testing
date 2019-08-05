@@ -1,5 +1,5 @@
 {
-  "name": "the meme depot",
+  "name": "the-meme-depot",
   "private": true,
   "scripts": {
     "build": "gridsome build",
