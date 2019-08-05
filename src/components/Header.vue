@@ -14,7 +14,7 @@
     <div class="nav-right">
       <g-link to="/tag/unhinged">Unhinged</g-link>
       <g-link to="/tag/truth">Truth</g-link>
-      <g-link to="/tag/tweets">Tweets</g-link>
+      <g-link to="/tag/tweet">Tweets</g-link>
     </div>
 
   </header>
