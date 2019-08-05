@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[18],{235:function(t){t.exports={data:{post:{title:"Real collusion 🔥",cover:"/images/woods.jpg",date:"2. June 2019",tags:[{id:"truth",title:"truth",path:"/tag/truth"}]}}}}}]);

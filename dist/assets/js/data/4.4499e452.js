@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[34],{221:function(t){t.exports={data:{post:{title:"Just grabbing some coffee in a socialist utopia ☕💰",cover:"/images/utopian-coffee.jpg",date:"10. June 2019",tags:[{id:"democrats",title:"democrats",path:"/tag/democrats"},{id:"socialism",title:"socialism",path:"/tag/socialism"}]}}}}}]);
