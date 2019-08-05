@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[36],{221:function(s){s.exports={data:{post:{title:"Muh free stuff ✊🍔",cover:"/images/muh-free-stuff.jpg",date:"5. June 2019",tags:[{id:"socialism",title:"socialism",path:"/tag/socialism"}]}}}}}]);

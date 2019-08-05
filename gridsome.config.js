@@ -1,5 +1,5 @@
 module.exports = {
-  siteName: 'thememedepot.com',
+  siteName: 'the meme depot',
   transformers: {
     remark: {
       externalLinksTarget: '_blank',

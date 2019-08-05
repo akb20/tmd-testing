@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[35],{222:function(t){t.exports={data:{post:{title:"Come to daddy 🎉",cover:"/images/daddy.jpg",date:"2. July 2019",tags:[{id:"trump",title:"trump",path:"/tag/trump"},{id:"democrats",title:"democrats",path:"/tag/democrats"},{id:"aoc",title:"aoc",path:"/tag/aoc"}]}}}}}]);

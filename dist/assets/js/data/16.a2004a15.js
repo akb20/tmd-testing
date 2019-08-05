@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[16],{231:function(e){e.exports={data:{post:{title:"McMueller's nothing burgers 🍔",cover:"/images/nothing-burger.jpg",date:"7. May 2019",tags:[{id:"democrats",title:"democrats",path:"/tag/democrats"},{id:"mueller",title:"mueller",path:"/tag/mueller"}]}}}}}]);

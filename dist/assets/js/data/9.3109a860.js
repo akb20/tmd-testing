@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[39],{226:function(e){e.exports={data:{post:{title:"Good Morning! What are we offended by today? 🍰",cover:"/images/archiebunker.jpg",date:"7. May 2019",tags:[{id:"unhinged",title:"unhinged",path:"/tag/unhinged"}]}}}}}]);

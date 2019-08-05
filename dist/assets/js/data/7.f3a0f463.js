@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[37],{222:function(t){t.exports={data:{post:{title:"Freedom vs tyranny 💯",cover:"/images/tyranny.jpg",date:"5. May 2019",tags:[{id:"trump",title:"trump",path:"/tag/trump"},{id:"maga",title:"maga",path:"/tag/maga"}]}}}}}]);

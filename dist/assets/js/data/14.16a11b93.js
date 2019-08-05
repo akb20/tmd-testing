@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[14],{231:function(t){t.exports={data:{post:{title:"Trump = laser pointer, democrats = cat 🐱",cover:"/images/laser.jpg",date:"4. July 2019",tags:[{id:"trump",title:"trump",path:"/tag/trump"},{id:"democrats",title:"democrats",path:"/tag/democrats"}]}}}}}]);

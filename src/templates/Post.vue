@@ -57,25 +57,25 @@ export default {
   },
   metaInfo() {
     return {
-      title: this.$page.post.title,
-      meta: [
-        { name: "description", content: this.$page.post.title },
+      title: this.$page.post.title
+      // meta: [
+      //   { name: "description", content: this.$page.post.title },
 
-        { name: "twitter:card", content: "summary_large_image" },
-        { name: "twitter:description", content: this.$page.post.title },
-        { name: "twitter:title", content: this.$page.post.title },
-        { name: "twitter:site", content: "@realmemedepot" },
-        { name: "twitter:image", content: this.getCoverImage },
-        { name: "twitter:creator", content: "@realmemedepot" },
+      //   { name: "twitter:card", content: "summary_large_image" },
+      //   { name: "twitter:description", content: this.$page.post.title },
+      //   { name: "twitter:title", content: this.$page.post.title },
+      //   { name: "twitter:site", content: "@realmemedepot" },
+      //   { name: "twitter:image", content: this.getCoverImage },
+      //   { name: "twitter:creator", content: "@realmemedepot" },
 
-        { property: "og:type", content: "article" },
-        { property: "og:title", content: this.$page.post.title },
-        { property: "og:description", content: this.$page.post.title }
-        // {
-        //   property: "og:url",
-        //   content: `${this.getBaseUrl}${this.$page.post.path}`
-        // }
-      ]
+      //   { property: "og:type", content: "article" },
+      //   { property: "og:title", content: this.$page.post.title },
+      //   { property: "og:description", content: this.$page.post.title }
+      // {
+      //   property: "og:url",
+      //   content: `${this.getBaseUrl}${this.$page.post.path}`
+      // }
+      // ]
     };
   },
   computed: {

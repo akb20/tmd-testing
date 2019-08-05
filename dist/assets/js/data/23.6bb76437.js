@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[24],{240:function(e){e.exports={data:{tag:{title:"maga",belongsTo:{pageInfo:{totalPages:1,currentPage:1},edges:[{node:{id:"f003314d264b31150b35c7fd37adf01e",title:"Freedom vs tyranny 💯",date:"05/05/2019",excerpt:"",path:"/memes/freedom-vs-tyranny",cover:"/images/tyranny.jpg"}}]}}}}}}]);

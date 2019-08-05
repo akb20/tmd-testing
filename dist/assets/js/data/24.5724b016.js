@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[25],{241:function(e){e.exports={data:{tag:{title:"mueller",belongsTo:{pageInfo:{totalPages:1,currentPage:1},edges:[{node:{id:"605d2ca83d3a43edfd1914354236cb93",title:"McMueller's nothing burgers 🍔",date:"07/05/2019",excerpt:"",path:"/memes/mcmueller",cover:"/images/nothing-burger.jpg"}}]}}}}}}]);

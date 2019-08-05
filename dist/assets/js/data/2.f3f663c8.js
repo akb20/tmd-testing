@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[20],{219:function(t){t.exports={data:{post:{title:"Trumps new astronauts 👩‍🚀",cover:"/images/astronauts.jpg",date:"9. May 2019",tags:[{id:"trump",title:"trump",path:"/tag/trump"},{id:"democrats",title:"democrats",path:"/tag/democrats"}]}}}}}]);
