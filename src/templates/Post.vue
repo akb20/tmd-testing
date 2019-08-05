@@ -49,8 +49,6 @@ export default {
     return {
       title: this.$page.post.title,
       meta: [
-        { name: "description", content: this.$page.post.title },
-
         { name: "twitter:card", content: "summary_large_image" },
         { name: "twitter:title", content: this.$page.post.title },
         { name: "twitter:site", content: "@realmemedepot" },
