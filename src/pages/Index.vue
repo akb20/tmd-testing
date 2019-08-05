@@ -10,8 +10,6 @@
             <g-image :src="post.node.cover" />
           </div>
 
-          <!-- <p>{{ post.node.title }}</p> -->
-
         </g-link>
       </div>
       <!-- end card -->

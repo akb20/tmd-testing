@@ -3,19 +3,19 @@
 
     <div class="nav-left">
       <g-link to="/">
-        <a class="nav-link" href="/tag/action">All</a>
+        <span class="nav-link" href="/tag/action">All</span>
       </g-link>
-      <a class="nav-link" href="/tag/trump">Trump/maga</a>
-      <a class="nav-link" href="/tag/sci-fi">Democrats</a>
+      <span class="nav-link" href="/tag/trump">Trump/maga</span>
+      <span class="nav-link" href="/tag/sci-fi">Democrats</span>
     </div>
 
     <g-link to="/">
       <img class="logo" src="../assets/images/logo.png" alt="M">
     </g-link>
     <div class="nav-right">
-      <a class="nav-link" href="/tag/crime">Unhinged</a>
-      <a class="nav-link" href="/tag/80s">Truth</a>
-      <a class="nav-link" href="/tag/comedy">Tweets</a>
+      <span class="nav-link" href="/tag/crime">Unhinged</span>
+      <span class="nav-link" href="/tag/80s">Truth</span>
+      <span class="nav-link" href="/tag/comedy">Tweets</span>
     </div>
 
   </header>
