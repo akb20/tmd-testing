@@ -17,7 +17,7 @@
 
             <div class="hr"></div>
 
-            <!-- <social-sharing url="https://vuejs.org/" title="The Progressive JavaScript Framework" description="Intuitive, Fast and Composable MVVM for building interactive interfaces." quote="Vue is a progressive framework for building user interfaces." hashtags="vuejs,javascript,framework" twitter-user="vuejs" inline-template>
+            <social-sharing url="https://vuejs.org/" title="The Progressive JavaScript Framework" description="Intuitive, Fast and Composable MVVM for building interactive interfaces." quote="Vue is a progressive framework for building user interfaces." hashtags="vuejs,javascript,framework" twitter-user="vuejs" inline-template>
               <div>
                 <network network="facebook">📘 Facebook
                 </network>
@@ -25,7 +25,7 @@
                 </network>
 
               </div>
-            </social-sharing> -->
+            </social-sharing>
 
             <p class="tags"> 📂
               <Tags :tags="$page.post.tags" />
@@ -57,25 +57,25 @@ export default {
   },
   metaInfo() {
     return {
-      title: this.$page.post.title
-      // meta: [
-      //   { name: "description", content: this.$page.post.title },
+      title: this.$page.post.title,
+      meta: [
+        { name: "description", content: this.$page.post.title },
 
-      //   { name: "twitter:card", content: "summary_large_image" },
-      //   { name: "twitter:description", content: this.$page.post.title },
-      //   { name: "twitter:title", content: this.$page.post.title },
-      //   { name: "twitter:site", content: "@realmemedepot" },
-      //   { name: "twitter:image", content: this.getCoverImage },
-      //   { name: "twitter:creator", content: "@realmemedepot" },
+        { name: "twitter:card", content: "summary_large_image" },
+        { name: "twitter:description", content: this.$page.post.title },
+        { name: "twitter:title", content: this.$page.post.title },
+        { name: "twitter:site", content: "@realmemedepot" },
+        { name: "twitter:image", content: this.getCoverImage },
+        { name: "twitter:creator", content: "@realmemedepot" },
 
-      //   { property: "og:type", content: "article" },
-      //   { property: "og:title", content: this.$page.post.title },
-      //   { property: "og:description", content: this.$page.post.title }
-      // {
-      //   property: "og:url",
-      //   content: `${this.getBaseUrl}${this.$page.post.path}`
-      // }
-      // ]
+        { property: "og:type", content: "article" },
+        { property: "og:title", content: this.$page.post.title },
+        { property: "og:description", content: this.$page.post.title },
+        {
+          property: "og:url",
+          content: `${this.getBaseUrl}${this.$page.post.path}`
+        }
+      ]
     };
   },
   computed: {
@@ -83,11 +83,11 @@ export default {
       let coverImage = "";
       const cover = this.$page.post.cover;
       return coverImage;
+    },
+    getBaseUrl() {
+      console.log(process.env.GRIDSOME_BASE_URL);
+      return process.env.GRIDSOME_BASE_URL;
     }
-    // getBaseUrl() {
-    //   console.log(process.env.GRIDSOME_BASE_URL);
-    //   return process.env.GRIDSOME_BASE_URL;
-    // }
   }
 };
 </script>
