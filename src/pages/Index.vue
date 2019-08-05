@@ -4,13 +4,12 @@
     <div class="cards">
       <div class="card" v-for="post in $page.posts.edges" :key="post.id">
 
-        <g-link :to="post.node.path">
-
-          <div class="card-thumb">
+        <div class="card-thumb">
+          <g-link :to="post.node.path">
             <g-image :src="post.node.cover" />
-          </div>
+          </g-link>
+        </div>
 
-        </g-link>
       </div>
       <!-- end card -->
 
