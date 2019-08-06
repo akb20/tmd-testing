@@ -64,7 +64,7 @@ a:-webkit-any-link {
 
 //page transitions
 .fade-enter-active {
-  transition: opacity 0.5s;
+  transition: opacity 0.4s;
 }
 
 .fade-enter {
