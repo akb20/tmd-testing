@@ -84,7 +84,8 @@ export default {
       position: relative;
       overflow: hidden;
       &:hover {
-        -webkit-filter: brightness(0.9);
+        -webkit-filter: brightness(0.85);
+        filter: brightness(0.85);
       }
       img {
         position: absolute;

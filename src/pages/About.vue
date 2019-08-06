@@ -6,19 +6,19 @@
 
       <p>☑️ If you are interested in submitting a meme, please send it to thememedepot@protonmail.com</p>
 
-      <div class="hr">----------</div>
+      <div class="hr"></div>
       <h3>Get In Touch ✏️</h3>
       <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/thememedepot@protonmail.com" method="post">
         <fieldset id="fs-frm-inputs">
           <label for="full-name">Name</label>
-          <input type="text" name="name" id="full-name" placeholder="Name" required="">
+          <input type="text" name="name" id="full-name" placeholder="John Doe" required="">
           <label for="email-address">Email Address</label>
-          <input type="email" name="_replyto" id="email-address" placeholder="email@email.com" required="">
+          <input type="email" name="_replyto" id="email-address" placeholder="johndoe@email.com" required="">
           <label for="message">Message</label>
-          <textarea rows="5" name="message" id="message" placeholder="Your message..." required=""></textarea>
+          <textarea rows="5" name="message" id="message" placeholder="your message..." required=""></textarea>
           <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
         </fieldset>
-        <input type="submit" value="Submit ✉️">
+        <input type="submit" value="Send">
       </form>
     </div>
 
@@ -41,7 +41,11 @@ export default {
 }
 
 .hr {
-  margin: 2rem 0;
+  height: 4px;
+  width: 20%;
+  background-color: #eee;
+  margin: 4rem auto 4rem auto;
+  transform: rotate(-5deg);
 }
 
 fieldset {
@@ -59,10 +63,17 @@ textarea {
   font-size: inherit;
   border-radius: 3px;
   border: 1px solid #ddd;
+
+  &:focus {
+    outline: none !important;
+    border-color: $orange;
+  }
 }
 
 input[type="submit"] {
-  background-color: #464646;
+  font-size: 1.2rem;
+  padding: 0.8rem 2rem;
+  background-color: $orange;
   border: 0;
   cursor: pointer;
   width: auto;
@@ -70,7 +81,7 @@ input[type="submit"] {
   border-radius: 3px;
 
   &:hover {
-    background-color: darken(#464646, 7%);
+    background-color: darken($orange, 7%);
   }
 }
 </style>

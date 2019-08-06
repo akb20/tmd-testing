@@ -139,10 +139,11 @@ aside {
     font-size: 0.9rem;
   }
   .hr {
-    height: 1px;
-    width: 100%;
+    height: 4px;
+    width: 20%;
     background-color: #eee;
-    margin: 2rem 0;
+    margin: 2rem auto 2rem auto;
+    transform: rotate(-5deg);
   }
 
   .social-links a {

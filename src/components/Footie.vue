@@ -15,7 +15,7 @@
     </div>
 
     <div class="right">
-      <h3>Explore Memes 👍</h3>
+      <h3>Explore Memes 🔭</h3>
       <ul>
         <li><a class="nav-link" href="/tag/trump">Trump/maga</a></li>
         <li><a class="nav-link" href="/tag/trump">Democrats</a></li>
