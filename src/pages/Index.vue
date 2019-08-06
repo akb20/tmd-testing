@@ -77,6 +77,7 @@ export default {
     position: relative;
     color: $black;
     border: 1px solid #eee;
+    border-radius: 3px;
 
     .card-thumb {
       height: 310px;
@@ -92,6 +93,7 @@ export default {
         height: 100%;
         width: 100%;
         object-fit: cover;
+        border-radius: 3px;
       }
     }
 
@@ -114,6 +116,7 @@ export default {
     margin: 0 0.5rem;
     background-color: #464646;
     color: #fff;
+    border-radius: 3px;
   }
 }
 </style>

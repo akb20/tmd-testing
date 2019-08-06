@@ -102,6 +102,7 @@ export default {
   .main-img {
     max-width: 100%;
     border: 1px solid #eee;
+    border-radius: 3px;
   }
 }
 article {
@@ -115,6 +116,7 @@ aside {
   .aside-content {
     width: 100%;
     border: 1px solid #eee;
+    border-radius: 3px;
   }
   .aside-content-inner {
     padding: 0.2rem 1rem 2rem 1rem;
@@ -128,6 +130,7 @@ aside {
     text-align: center;
     padding: 0.6rem 1rem;
     background-color: #ef7125;
+    border-radius: 3px;
     &:hover {
       background-color: darken($orange, 7%);
     }

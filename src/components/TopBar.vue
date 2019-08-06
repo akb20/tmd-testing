@@ -1,7 +1,6 @@
 <template>
   <div class="top-bar">
     <g-link class="top-bar-nav" to="/about">About</g-link>
-    <g-link class="top-bar-nav" to="/contact">Contact</g-link>
   </div>
 </template>
 
