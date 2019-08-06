@@ -2,9 +2,11 @@
   <div class="layout">
     <TopBar />
     <Header />
-    <div class="wrapper">
-      <slot />
-    </div>
+    <transition name="fade" appear>
+      <div class="wrapper">
+        <slot />
+      </div>
+    </transition>
     <Footie />
   </div>
 </template>
@@ -58,6 +60,15 @@ a:-webkit-any-link {
   color: $black;
   cursor: pointer;
   text-decoration: none;
+}
+
+//page transitions
+.fade-enter-active {
+  transition: opacity 0.5s;
+}
+
+.fade-enter {
+  opacity: 0;
 }
 </style>
 
