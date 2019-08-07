@@ -1,5 +1,5 @@
 <template>
-  <footer>
+  <footer class="site-footer">
     <div class="left">
       <h3>Political and social memes. From our mind to yours.</h3>
       <p>Find us on:</p>
@@ -45,15 +45,20 @@ export default {};
 
 <style lang="scss"scoped>
 @import "../assets/scss/styles.scss";
-footer {
+.site-footer {
   height: 300px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   background-color: #464646;
   color: #ffffff;
   margin-top: 8rem;
   padding: 0 3rem;
+
+  @media (max-width: 1050px) {
+    justify-content: center;
+  }
   .logo {
     height: 120px;
     width: auto;
@@ -64,6 +69,10 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    @media (max-width: 1050px) {
+      display: none;
+    }
   }
 
   .left,
@@ -83,6 +92,9 @@ footer {
       span {
         margin-right: 0.2rem;
       }
+    }
+    @media (max-width: 1050px) {
+      text-align: center;
     }
   }
   .right {
@@ -105,6 +117,9 @@ footer {
           text-decoration: underline;
         }
       }
+    }
+    @media (max-width: 1050px) {
+      display: none;
     }
   }
 }

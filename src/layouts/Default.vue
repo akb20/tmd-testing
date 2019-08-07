@@ -52,7 +52,7 @@ body {
 }
 
 .wrapper {
-  width: 1000px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
@@ -70,5 +70,7 @@ a:-webkit-any-link {
 .fade-enter {
   opacity: 0;
 }
+
+// media queries
 </style>
 

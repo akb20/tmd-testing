@@ -48,6 +48,10 @@ export default {};
     justify-content: space-between;
     flex-basis: 33.333%;
 
+    @media (max-width: 1050px) {
+      display: none;
+    }
+
     a {
       text-transform: uppercase;
       color: $black;

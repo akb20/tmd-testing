@@ -71,18 +71,37 @@ export default {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  max-width: 95%;
+  margin: 0 auto;
   .card {
     flex-basis: 32%;
     margin-bottom: 1.3rem;
     position: relative;
-    color: $black;
     border: 1px solid #eee;
     border-radius: 3px;
+    background-color: red;
+
+    @media (max-width: 1050px) {
+      flex-basis: 49%;
+    }
+
+    @media (max-width: 600px) {
+      flex-basis: 100%;
+    }
 
     .card-thumb {
       height: 310px;
       position: relative;
       overflow: hidden;
+
+      @media (max-width: 1050px) {
+        height: 340px;
+      }
+
+      @media (max-width: 600px) {
+        height: 370px;
+      }
+
       &:hover {
         -webkit-filter: brightness(0.85);
         filter: brightness(0.85);
@@ -120,4 +139,6 @@ export default {
     border-radius: 3px;
   }
 }
+
+// media queries
 </style>
