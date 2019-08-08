@@ -36,7 +36,8 @@ export default {
  <style lang="scss" scoped>
 @import "../assets/scss/styles.scss";
 .about-wrapper {
-  max-width: 600px;
+  width: 600px;
+  max-width: 90%;
   margin: 0 auto;
 }
 

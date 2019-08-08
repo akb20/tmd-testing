@@ -1,6 +1,6 @@
 <template>
   <div class="layout">
-    <TopBar />
+    <!-- <TopBar /> -->
     <Header />
     <transition name="fade" appear>
       <div class="wrapper">
@@ -52,7 +52,7 @@ body {
 }
 
 .wrapper {
-  max-width: 1000px;
+  max-width: 1060px;
   margin: 0 auto;
 }
 

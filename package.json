@@ -12,6 +12,7 @@
     "@gridsome/transformer-remark": "^0.3.2",
     "css-loader": "^3.1.0",
     "gridsome": "^0.6.7",
+    "vue-burger-menu": "^2.0.2",
     "vue-style-loader": "^4.1.2"
   },
   "devDependencies": {
