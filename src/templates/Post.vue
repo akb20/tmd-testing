@@ -25,9 +25,9 @@
 
             <h3>Find us on:</h3>
             <div class="social-links">
-              <a href="#"><span>📷</span>Instagram</a>
-              <a href="#"><span>📘</span>Facebook</a>
-              <a href="#"><span>🐦</span>Twitter</a>
+              <a href="https://www.instagram.com/realmemedepot/"><span>📷</span>Instagram</a>
+              <a href="https://www.facebook.com/realmemedepot"><span>📘</span>Facebook</a>
+              <a href="https://twitter.com/realmemedepot"><span>🐦</span>Twitter</a>
             </div>
 
           </div>
@@ -89,8 +89,6 @@ export default {
   justify-content: space-between;
   margin-top: 3rem;
   color: $black;
-  position: relative;
-  z-index: 99;
 
   .article-title {
     font-size: 2.7rem;
@@ -132,20 +130,28 @@ aside {
     text-align: center;
     padding: 0.6rem 1rem;
     background-color: #ef7125;
+    margin-top: 1rem;
     border-radius: 3px;
     &:hover {
       background-color: darken($orange, 7%);
     }
   }
   .tags {
+    display: flex;
+    justify-content: center;
     font-size: 0.9rem;
+    text-align: center;
+  }
+  .tag:not(body) {
+    font-size: 0.85rem;
+    background-color: #fff;
   }
   .hr {
     height: 4px;
     width: 20%;
     background-color: #eee;
     margin: 2rem auto 2rem auto;
-    transform: rotate(-5deg);
+    // transform: rotate(-5deg);
   }
 
   .social-links a {
@@ -153,6 +159,9 @@ aside {
     margin-bottom: 0.5rem;
     span {
       margin-right: 0.2rem;
+    }
+    &:hover {
+      text-decoration: underline;
     }
   }
 }

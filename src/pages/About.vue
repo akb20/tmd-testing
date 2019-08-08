@@ -1,13 +1,13 @@
 <template>
   <Layout>
     <div class="about-wrapper">
-      <h1>About Us</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error doloremque omnis animi, eligendi magni a voluptatum, vitae, consequuntur rerum illum odit fugit assumenda rem dolores inventore iste reprehenderit maxime! Iusto.</p>
+      <h2 class="is-size-3">About Us</h2>
+      <p>Thanks for stopping by our little corner of the web. As you've undoubtedly noticed, we make make memes with a centrist/right slant.</p>
 
       <p>☑️ If you are interested in submitting a meme, please send it to thememedepot@protonmail.com</p>
 
       <div class="hr"></div>
-      <h3>Get In Touch ✏️</h3>
+      <h3 class="is-size-4">Get In Touch ✏️</h3>
       <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/thememedepot@protonmail.com" method="post">
         <fieldset id="fs-frm-inputs">
           <label for="full-name">Name</label>

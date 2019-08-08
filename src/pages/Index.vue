@@ -11,10 +11,7 @@
         </div>
 
       </div>
-      <!-- end card -->
-
     </div>
-    <!-- end cards -->
 
     <Pager class="paginate" :info="$page.posts.pageInfo" />
 
@@ -71,7 +68,6 @@ export default {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  max-width: 95%;
   margin: 0 auto;
   .card {
     flex-basis: 32%;
@@ -79,28 +75,12 @@ export default {
     position: relative;
     border: 1px solid #eee;
     border-radius: 3px;
-    background-color: red;
-
-    @media (max-width: 1050px) {
-      flex-basis: 49%;
-    }
-
-    @media (max-width: 600px) {
-      flex-basis: 100%;
-    }
+    box-shadow: none;
 
     .card-thumb {
       height: 310px;
       position: relative;
       overflow: hidden;
-
-      @media (max-width: 1050px) {
-        height: 340px;
-      }
-
-      @media (max-width: 600px) {
-        height: 370px;
-      }
 
       &:hover {
         -webkit-filter: brightness(0.85);
@@ -141,4 +121,23 @@ export default {
 }
 
 // media queries
+@media (max-width: 1050px) {
+  .cards .card {
+    flex-basis: 49%;
+  }
+
+  .card .card-thumb {
+    height: 340px;
+  }
+}
+
+@media (max-width: 600px) {
+  .cards .card {
+    flex-basis: 100%;
+  }
+
+  .card .card-thumb {
+    height: 370px;
+  }
+}
 </style>

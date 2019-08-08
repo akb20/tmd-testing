@@ -41,7 +41,7 @@ export default {
 }
 
 body {
-  font-family: "Roboto Mono", monospace;
+  font-family: "Roboto Mono", monospace !important;
   margin: 0;
   padding: 0;
   line-height: 1.6;
@@ -54,12 +54,17 @@ body {
 .wrapper {
   max-width: 1060px;
   margin: 0 auto;
+  padding: 0 1rem;
 }
 
 a:-webkit-any-link {
   color: $black;
   cursor: pointer;
   text-decoration: none;
+}
+
+p {
+  margin-top: 1rem !important;
 }
 
 //page transitions

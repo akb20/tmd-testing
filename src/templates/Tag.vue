@@ -83,4 +83,30 @@
   text-transform: uppercase;
   border-bottom: 3px dashed $orange;
 }
+
+// media queries
+@media (max-width: 1050px) {
+  .title {
+    font-size: 1.5rem;
+    line-height: 1.6;
+  }
+
+  .cards .card {
+    flex-basis: 49%;
+  }
+
+  .card .card-thumb {
+    height: 340px;
+  }
+}
+
+@media (max-width: 600px) {
+  .cards .card {
+    flex-basis: 100%;
+  }
+
+  .card .card-thumb {
+    height: 370px;
+  }
+}
 </style>

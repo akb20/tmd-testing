@@ -2,12 +2,6 @@
   <footer class="site-footer">
     <div class="left">
       <h3>Political and social memes. From our mind to yours.</h3>
-      <p>Find us on:</p>
-      <div class="social-links">
-        <a href="#"><span>📷</span>Instagram</a>
-        <a href="#"><span>📘</span>Facebook</a>
-        <a href="#"><span>🐦</span>Twitter</a>
-      </div>
     </div>
 
     <div class="center">
@@ -18,21 +12,13 @@
       <h3>Explore Memes 🔭</h3>
       <ul>
         <li><a class="nav-link" href="/tag/trump">Trump/maga</a></li>
-        <li><a class="nav-link" href="/tag/trump">Democrats</a></li>
-        <li><a class="nav-link" href="/tag/trump">Unhinged</a></li>
-        <li><a class="nav-link" href="/tag/trump">Truth</a></li>
-        <li><a class="nav-link" href="/tag/trump">Tweets</a></li>
-        <li><a class="nav-link" href="/tag/trump">Aoc</a></li>
-        <li><a class="nav-link" href="/tag/trump">Bernie</a></li>
-        <li><a class="nav-link" href="/tag/trump">Media</a></li>
-        <li><a class="nav-link" href="/tag/trump">Leftists</a></li>
-        <li><a class="nav-link" href="/tag/trump">Big Tech</a></li>
-        <li><a class="nav-link" href="/tag/trump">Funny</a></li>
-        <li><a class="nav-link" href="/tag/trump">Funny</a></li>
-        <li><a class="nav-link" href="/tag/trump">Funny</a></li>
-        <li><a class="nav-link" href="/tag/trump">Funny</a></li>
-        <li><a class="nav-link" href="/tag/trump">Funny</a></li>
-        <li><a class="nav-link" href="/tag/trump">Funny</a></li>
+        <li><a class="nav-link" href="/tag/democrats">Democrats</a></li>
+        <li><a class="nav-link" href="/tag/unhinged">Unhinged</a></li>
+        <li><a class="nav-link" href="/tag/truth">Truth</a></li>
+        <li><a class="nav-link" href="/tag/tweets">Tweets</a></li>
+        <li><a class="nav-link" href="/tag/media">Media</a></li>
+        <li><a class="nav-link" href="/tag/leftists">Leftists</a></li>
+        <li><a class="nav-link" href="/tag/funny">Funny</a></li>
       </ul>
     </div>
 
@@ -82,9 +68,6 @@ export default {};
   }
 
   .left {
-    p {
-      line-height: 1;
-    }
     .social-links a {
       font-size: 0.9rem;
       color: #fff;
