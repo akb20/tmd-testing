@@ -19,9 +19,13 @@
 
     <div class="mobile-nav">
       <Slide right noOverlay>
-        <a id="home" href="#">
-          <span>Home</span>
-        </a>
+        <g-link to="/">All</g-link>
+        <g-link to="/tag/trump">Trump/Maga</g-link>
+        <g-link to="/tag/democrats">Democrats</g-link>
+        <g-link to="/tag/unhinged">Unhinged</g-link>
+        <g-link to="/tag/truth">Truth</g-link>
+        <g-link to="/tag/tweet">Tweets</g-link>
+        <g-link to="/tag/funny">Funny</g-link>
       </Slide>
     </div>
 
