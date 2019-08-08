@@ -94,7 +94,7 @@ export default {};
 
       a {
         color: #fff;
-        font-weight: 700;
+        font-size: 0.85rem;
         text-transform: uppercase;
         margin-right: 1rem;
         &:hover {

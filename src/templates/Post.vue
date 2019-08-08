@@ -151,7 +151,6 @@ aside {
     width: 20%;
     background-color: #eee;
     margin: 2rem auto 2rem auto;
-    // transform: rotate(-5deg);
   }
 
   .social-links a {

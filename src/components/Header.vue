@@ -80,6 +80,10 @@ a.navbar-link:hover {
   border-bottom-right-radius: 3px;
   border-top: 1px dashed #eee;
   box-shadow: 0 2px 2px rgba(10, 10, 10, 0.1);
+
+  a span {
+    margin-right: 0.2rem;
+  }
 }
 
 .navbar-burger span {
