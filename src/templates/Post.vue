@@ -2,7 +2,7 @@
   <Layout>
     <div class="main">
       <article>
-        <h2>{{ $page.post.title }}</h2>
+        <h2 class="article-title">{{ $page.post.title }}</h2>
 
         <g-image class="main-img" :src="$page.post.cover" />
 
@@ -85,13 +85,14 @@ export default {
 
 .main {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   margin-top: 3rem;
   color: $black;
   position: relative;
   z-index: 99;
 
-  h2 {
+  .article-title {
     font-size: 2.7rem;
     margin: 0;
     line-height: 1.1;
@@ -113,6 +114,7 @@ article {
 aside {
   flex-basis: 33%;
   flex-direction: column;
+
   .aside-content {
     width: 100%;
     border: 1px solid #eee;
@@ -152,6 +154,26 @@ aside {
     span {
       margin-right: 0.2rem;
     }
+  }
+}
+
+@media (max-width: 1050px) {
+  article,
+  aside {
+    flex-basis: 100%;
+    padding: 0 1rem;
+  }
+
+  article {
+    padding-right: 0;
+  }
+
+  .main .main-img {
+    max-width: 97%;
+  }
+
+  .main .article-title {
+    font-size: 1.5rem;
   }
 }
 </style>

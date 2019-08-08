@@ -9,43 +9,26 @@
 
     <div class="nav-right">
       <g-link to="/">All</g-link>
-      <g-link to="/tag/trump">Trump/Maga</g-link>
+      <g-link to="/tag/trump">Trump</g-link>
       <g-link to="/tag/democrats">Democrats</g-link>
       <g-link to="/tag/unhinged">Unhinged</g-link>
       <g-link to="/tag/truth">Truth</g-link>
-      <g-link to="/tag/tweet">Tweets</g-link>
       <g-link to="/tag/funny">Funny</g-link>
-    </div>
-
-    <div class="mobile-nav">
-      <Slide right noOverlay>
-        <g-link to="/">All</g-link>
-        <g-link to="/tag/trump">Trump/Maga</g-link>
-        <g-link to="/tag/democrats">Democrats</g-link>
-        <g-link to="/tag/unhinged">Unhinged</g-link>
-        <g-link to="/tag/truth">Truth</g-link>
-        <g-link to="/tag/tweet">Tweets</g-link>
-        <g-link to="/tag/funny">Funny</g-link>
-      </Slide>
     </div>
 
   </header>
 </template>
 
 <script>
-import { Slide } from "vue-burger-menu";
-export default {
-  components: {
-    Slide
-  }
-};
+export default {};
 </script>
 
 <style lang="scss">
 @import "../assets/scss/styles.scss";
 .site-header {
-  height: 50px;
+  height: 55px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
   margin-bottom: 2rem;
@@ -55,12 +38,12 @@ export default {
   z-index: 99;
 
   @media (max-width: 1050px) {
-    height: 60px;
+    height: 130px;
     padding: 0 1rem;
   }
 
   .logo {
-    height: 35px;
+    height: 40px;
     display: block;
     margin: 0;
   }
@@ -72,11 +55,11 @@ export default {
 
     @media (max-width: 1050px) {
       display: flex;
-      justify-content: flex-start;
-      flex-basis: 80%;
+      justify-content: center;
+      flex-basis: 100%;
 
       .logo {
-        height: 45px;
+        height: 65px;
       }
     }
   }
@@ -86,7 +69,8 @@ export default {
     flex-basis: 80%;
 
     @media (max-width: 1050px) {
-      display: none;
+      flex-basis: 100%;
+      margin-top: 0.5rem;
     }
 
     a {
@@ -94,35 +78,14 @@ export default {
       color: $black;
       font-size: 0.85rem;
       font-weight: 700;
+
+      @media (max-width: 1050px) {
+        font-size: 0.8rem;
+      }
       &:hover {
         color: $orange;
       }
     }
-  }
-
-  .mobile-nav {
-    display: none;
-
-    @media (max-width: 1050px) {
-      // display: block;
-      display: flex;
-      justify-content: space-between;
-      flex-basis: 20%;
-    }
-  }
-
-  .bm-burger-button {
-    height: 25px;
-    top: 17px;
-    right: 10px;
-  }
-
-  .bm-burger-bars {
-    background-color: $orange;
-  }
-
-  .bm-menu {
-    background-color: #464646;
   }
 }
 </style>

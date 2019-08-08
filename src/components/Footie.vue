@@ -58,6 +58,7 @@ export default {};
 
   @media (max-width: 1050px) {
     justify-content: center;
+    margin-top: 3rem;
   }
   .logo {
     height: 120px;
