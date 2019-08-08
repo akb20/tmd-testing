@@ -79,9 +79,9 @@
 }
 .title span {
   background-color: lighten($orange, 42%);
-  padding: 0.2rem 0.8rem;
+  padding: 0.2rem 0.6rem;
   text-transform: uppercase;
-  border-bottom: 3px dashed $orange;
+  border-bottom: 3px solid $orange;
 }
 
 // media queries

@@ -140,12 +140,15 @@ aside {
     display: flex;
     justify-content: center;
     font-size: 0.9rem;
+    text-transform: uppercase;
     text-align: center;
   }
   .tag:not(body) {
     font-size: 0.85rem;
+    text-transform: uppercase !important;
     background-color: #fff;
   }
+
   .hr {
     height: 4px;
     width: 20%;
